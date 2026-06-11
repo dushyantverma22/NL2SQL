@@ -2,6 +2,13 @@
   "table_name": "customers",
   "description": "Stores customer master information",
 
+"business_terms": [
+    "customer",
+    "buyer",
+    "client",
+    "user"
+  ],
+
   "columns": [
     {
       "name": "customer_id",

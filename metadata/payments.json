@@ -23,5 +23,9 @@
       "name": "payment_status",
       "description": "Success, Failed or Pending"
     }
-  ]
+  ],
+  "sample_queries": [
+  "Payment success rate",
+  "Most used payment method"
+]
 }

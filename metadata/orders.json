@@ -2,6 +2,15 @@
   "table_name": "orders",
   "description": "Stores customer purchase transactions",
 
+  "business_terms": [
+    "sales",
+    "revenue",
+    "purchase",
+    "transaction",
+    "order value",
+    "customer spending"
+  ],
+
   "relationships": [
     "customers.customer_id = orders.customer_id",
     "products.product_id = orders.product_id"
@@ -28,5 +37,11 @@
       "name": "order_date",
       "description": "Date of purchase"
     }
-  ]
+  ],
+
+  "sample_queries": [
+  "Revenue by city",
+  "Top customers by spending",
+  "Monthly revenue trend"
+]
 }
