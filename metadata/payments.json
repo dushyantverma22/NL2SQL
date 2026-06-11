@@ -1,0 +1,27 @@
+{
+  "table_name": "payments",
+  "description": "Stores payment information",
+
+  "relationships": [
+    "orders.order_id = payments.order_id"
+  ],
+
+  "columns": [
+    {
+      "name": "payment_id",
+      "description": "Unique payment identifier"
+    },
+    {
+      "name": "order_id",
+      "description": "Order associated with payment"
+    },
+    {
+      "name": "payment_method",
+      "description": "Mode of payment"
+    },
+    {
+      "name": "payment_status",
+      "description": "Success, Failed or Pending"
+    }
+  ]
+}

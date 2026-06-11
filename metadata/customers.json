@@ -1,0 +1,23 @@
+{
+  "table_name": "customers",
+  "description": "Stores customer master information",
+
+  "columns": [
+    {
+      "name": "customer_id",
+      "description": "Unique customer identifier"
+    },
+    {
+      "name": "customer_name",
+      "description": "Full customer name"
+    },
+    {
+      "name": "city",
+      "description": "Customer city"
+    },
+    {
+      "name": "signup_date",
+      "description": "Date customer registered"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "table_name": "products",
+  "description": "Stores product catalog",
+
+  "columns": [
+    {
+      "name": "product_id",
+      "description": "Unique product identifier"
+    },
+    {
+      "name": "product_name",
+      "description": "Product name"
+    },
+    {
+      "name": "category",
+      "description": "Product category"
+    },
+    {
+      "name": "price",
+      "description": "Product price"
+    }
+  ]
+}
